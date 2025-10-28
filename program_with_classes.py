@@ -85,8 +85,8 @@ class CourseMateApp:
         """Create header widgets"""
         header_title = ttk.Label(
             self.header_frame, 
-            text="CourseMate: A Smart Note-Taking & Study Aid For Students",
-            font=('Helvetica', 16, 'bold'), 
+            text="CourseMate - Stay Organized, Think Smarter, Learn Deeper, and Solve Problems Better",
+            font=('Helvetica', 12, 'bold'), 
             foreground='white',
             background='#2c3e50'
         )
