@@ -55,7 +55,7 @@ class CourseMateApp:
     def __init__(self, root):
         """Set up the app when it starts"""
         self.root = root
-        self.root.title("CourseMate - Simple & Complete")
+        self.root.title("CourseMate - think smarter, learn deeper, and solve problems better. ")
         self.root.geometry("1100x700")
         
         # DATA: Store everything here
