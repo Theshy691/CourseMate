@@ -1,7 +1,0 @@
-import tkinter as tk
-from coursemate_app import CourseMateApp
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = CourseMateApp(root)
-    root.mainloop()
