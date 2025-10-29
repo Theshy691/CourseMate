@@ -18,6 +18,7 @@
 
 * **Course Management:** Keep your educational materials neatly organized by creating dedicated folders for each course or module. Add tasks, assignments, and readings, and track their completion status to stay on top of your workload.
 * **Note-taking Module:** Write, edit, and organize notes under each course. The application supports various templates to guide your note-taking process.
+*  **Freeform Canvas: ** Freely write notes for brainstorming and note-taking in a blank canvas.
 * **Templates for Non-Technical Courses:**
     * **Cornell Notes:** A powerful method for active review and retention.
     * **Main Idea & Supporting Details:** Quickly grasp core concepts by separating the main point from its supporting evidence.
@@ -26,7 +27,7 @@
     * **Polya's Four Steps:** A structured method to systematically tackle and solve complex problems.
     * **Concept Mapping:** Visually connect ideas to build a deeper understanding of any topic.
     * **5W1H Strategy:** Instantly get a complete overview of a topic by answering six essential questions.
-* **Lightweight Data Storage:** The system uses simple CSV and text files for structured records and notes, making the application highly portable and easy to back up.
+* **Lightweight Data Storage:** The system will use json for easy writing and saving files that is accessible through a text editor. 
 
 ---
 
@@ -35,6 +36,7 @@
 Our core objectives for CourseMate are to:
 
 * Provide an easy-to-use platform for organizing notes and tasks.
+* Support freeform writing with a blank canvas.
 * Support non-technical courses with structured study aids.
 * Support technical courses with effective problem-solving tools.
 * Encourage the adoption of evidence-based learning strategies.
