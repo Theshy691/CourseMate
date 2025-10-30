@@ -74,7 +74,10 @@ class CourseMateApp:
 
     #Part 6: Views
     def _clear_content(self):
-        pass
+        """Helper: Clear the main content area"""
+        for widget in self.main_content.winfo_children():
+            widget.destroy()
+        
     def show_dashboard(self):
         pass
     def show_freeform(self):
