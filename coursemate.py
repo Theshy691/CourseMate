@@ -30,7 +30,8 @@ class CourseMateApp:
     
     #Part 2: Data Storage (JSON)
     def _load_data(self):
-        pass
+        """
+        Load data from JSON file"""
     def _save_data(self):
         pass
 
