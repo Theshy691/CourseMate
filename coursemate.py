@@ -79,7 +79,20 @@ class CourseMateApp:
             widget.destroy()
         
     def show_dashboard(self):
-        pass
+        """
+        DASHBOARD VIEW
+        Shows: Course list + Task list side by side]
+        """
+        self._clear_content(self):
+    #Title
+    tk.Label(self.main_content, text="📊 Dashboard",
+             font=('Helvetica', 24, 'bold')
+             bg='#f5f5f5').pack(pady=20, anchor='w', padx=30)
+    
+    #ito yung dalawang container columns
+    
+    #Con
+    
     def show_freeform(self):
         pass
     def show_technical(self):
