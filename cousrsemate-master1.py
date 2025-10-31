@@ -844,7 +844,7 @@ class CourseMateApp:
         
         for name, desc, key in templates:
             card = ttk.Frame(self.main_content, style='Card.TFrame', padding=15)
-            card.pack(fill='x', padx=30, pady=8)
+            card.pack(fill='x', pady=8, padx=30)
             
             tk.Label(card, text=name, font=('Helvetica', 13, 'bold'),
                     bg='white').pack(anchor='w')
